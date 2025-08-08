@@ -39,7 +39,7 @@ jobs:
       - name: Collect final page
         run: |
           mkdir _site
-          cp -r index.html style.min.css img/ _site/
+          cp -r index.html styles.min.css img/ _site/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
